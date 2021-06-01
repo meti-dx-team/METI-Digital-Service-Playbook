@@ -15,7 +15,7 @@ for (const ss of s.split("\n")) {
   } else {
     const html = await (await fetch(url)).text();
     const dom = cheerio.load(html);
-    const title = dom("title").text();
+    const title = dom("title").text().trim();
     console.log(url, title);
     list.push({ title, url });
   }
