@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head><meta charset="utf-8">
+        <title>経済産業省 Digital Service Playbook 参照リンク一覧</title>
+         <style>
+             table {
+                 border-collapse: collapse;
+                 margin: .5em 0;
+             }
+             td, th {
+                 border: 1px solid #333;
+                 padding: 0 .3em;
+             }
+             td:nth-child(3) {
+                 width: 30vw;
+                 word-break: break-all;
+                 font-size: 80%;
+             }
+         </style>
+    </head>
+    <body>
+        <h1>経済産業省 Digital Service Playbook 参照リンク一覧</h1>
+        <div>「<a href=Digital-Service-Playbook_ver.0.9.0.pdf>経済産業省 Digital Service Playbook ver 0.9.0</a>」から参考リンクを抜き出しCSVオープンデータ化し、検索可能にしたものです。<br>
+        </div>
+        <script type="module" src="https://code4sabae.github.io/js/csv-viewer.js"></script>
+        <csv-viewer src="reference.csv" name="経済産業省 Digital Service Playbook 参照リンク一覧"></csv-viewer>
+        <hr>
+        Data: <a href=Digital-Service-Playbook_ver.0.9.0.pdf>経済産業省 Digital Service Playbook ver 0.9.0</a><br>
+        App: <a href=deno/makecsv.js>makecsv.js - Deno</a> by <a href=https://fukuno.jig.jp/3079>福野泰介の一日一創</a> (<a href=https://github.com/code4sabae/METI-Digital-Service-Playbook/>src on GitHub</a>)<br>
+    </body>
+</html>
