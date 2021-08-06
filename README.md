@@ -113,7 +113,7 @@ CIO補佐官、デジタル化推進マネージャーといったエキスパ�
   - [2.1 調達](https://github.com/meti-dx-team/METI-Digital-Service-Playbook/blob/main/2.1%20%E8%AA%BF%E9%81%94.md)
   - [2.2 開発](https://github.com/meti-dx-team/METI-Digital-Service-Playbook/blob/main/2.2%20%E9%96%8B%E7%99%BA.md)
   - [2.3 テスト](https://github.com/meti-dx-team/METI-Digital-Service-Playbook/blob/main/2.3%20%E3%83%86%E3%82%B9%E3%83%88.md)
-  - [2.4 デプロイ](https://github.com/meti-dx-team/METI-Digital-Service-Playbook/blob/main/2.4%20%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4_%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9.md)
+  - [2.4 デプロイ](https://github.com/meti-dx-team/METI-Digital-Service-Playbook/blob/main/2.4%20%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4.md)
 
 ### 3. サービスを育てる
 
