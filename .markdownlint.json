@@ -1,0 +1,102 @@
+
+{
+  "//": ".markdownlint.json : https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md",
+  "//": "MD001 : 見出しレベルのインクリメントチェック",
+  "header-increment": true,
+  "//": "MD002 : 最初に登場する見出しがレベル1であること",
+  "first-header-h1": true,
+  "//": "MD003 : 見出しのスタイル",
+  "header-style": {
+    "style": "atx"
+  },
+  "//": "MD004 : リストの記号をハイフンにする",
+  "ul-style": {
+    "style": "dash"
+  },
+  "//": "MD005 : リストのインデントを揃える",
+  "list-indent": true,
+  "//": "MD006 : トップレベルのリストをインデントしない",
+  "ul-start-left": false,
+  "//": "MD007 : リストのインデントに使用するスペースの数",
+"ul-indent": {
+    "indent": 2
+},
+  "//": "MD009 : 改行のための2スペースを除いて、行末の不要なスペースを検知する",
+  "no-trailing-spaces": {
+    "br_spaces": 2
+  },
+  "//": "MD010 : Tab によるインデントを禁止する",
+  "no-hard-tabs": true,
+  "//": "MD011 : リンク記法の誤りチェック",
+  "no-reversed-links": true,
+  "//": "MD012 : 連続する空行を最大2つまでにする",
+  "no-multiple-blanks": {
+    "maximum": 2
+  },
+  "//": "MD013 : 1行の長さを制御しない",
+  "line-length": false,
+  "//": "MD014 : コードブロックにコマンドを書く際、行頭に「$」記号を強制しない",
+  "commands-show-output": false,
+  "//": "MD018 : 見出しの「#」直後にスペースを入れること",
+  "no-missing-space-atx": true,
+  "//": "MD019 : 見出しの「#」直後に複数のスペースを入れないこと",
+  "no-multiple-space-atx": true,
+  "//": "MD020 : 見出しの「#」前後にスペースを入れること (Closed ATX スタイル向けのルールのため無意味)",
+  "no-missing-space-closed-atx": true,
+  "//": "MD021 : 見出しの「#」前後に複数のスペースを入れないこと (Closed ATX スタイル向けのルールのため無意味)",
+  "no-multiple-space-closed-atx": true,
+  "//": "MD022 : 見出しの前後に空行を入れること",
+  "blanks-around-headers": true,
+  "//": "MD023 : 見出しにインデントを付けない",
+  "header-start-left": true,
+  "//": "MD024 : 見出し文言の重複を許容する",
+  "no-duplicate-header": false,
+  "//": "MD025 : 見出しレベル1は1ファイル中に1つのみにする",
+  "single-h1": true,
+  "//": "MD026 : 見出しの文末に記載を禁止する記号 (句読点で終わらないこと)",
+  "no-trailing-punctuation": {
+    "punctuation": ".,:!?、。"
+  },
+  "//": "MD027 : 引用記号「>」直後にスペースを1つだけ入れること",
+  "no-multiple-space-blockquote": true,
+  "//": "MD028 : 引用ブロック中の空行を表現する際に引用記号「>」を書くこと",
+  "no-blanks-blockquote": true,
+  "//": "MD029 : 順序付きリストは連番を明記する",
+  "ol-prefix": {
+    "style": "ordered"
+  },
+  "//": "MD030 : リスト記号の直後にスペースを入れること",
+  "list-marker-space": true,
+  "//": "MD031 : コードブロックの前後に空行を入れること (リスト中にコードブロックを記載する際は、リスト全体で MD031・MD032 を無効化するようコメントを入れておく)",
+  "blanks-around-fences": true,
+  "//": "MD032 : リストの前後に空行を入れること",
+  "blanks-around-lists": true,
+  "//": "MD033 : HTML の記述を許容する",
+  "no-inline-html": false,
+  "//": "MD034 : URL のベタ書き (リンク記法もしくはインラインコードとして表現する)",
+  "no-bare-urls": true,
+  "//": "MD035 : 水平区切り線のスタイル",
+  "hr-style": {
+    "style": "---"
+  },
+  "//": "MD036 : 強調構文を見出し風に使うことを許容する",
+  "no-emphasis-as-header": false,
+  "//": "MD037 : 強調構文の内側 (開始直後・終了直前) にスペースを書かないこと",
+  "no-space-in-emphasis": true,
+  "//": "MD038 : インラインコードの内側 (開始直後・終了直前) にスペースを書かないこと",
+  "no-space-in-code": true,
+  "//": "MD039 : リンクの内側 (開始直後・終了直前) にスペースを書かないこと",
+  "no-space-in-links": true,
+  "//": "MD040 : コードブロックには言語を必ず記載する (言語指定が不要な場合は「text」を記載する)",
+  "fenced-code-language": false,
+  "//": "MD041 : 1行目に見出しレベル1が記載されていなくても許容する ",
+  "first-line-h1": false,
+  "//": "MD042 : URL が空のリンク記法をチェックする",
+  "no-empty-links": true,
+  "//": "MD043 : 特定の見出しレベル・見出し文言を強制する指定 ",
+  "required-headers": false,
+  "//": "MD044 : 英単語の大文字・小文字表記ゆれチェック",
+  "proper-names": true,
+  "//": "MD045 : 画像記法に Alt Text を書くこと",
+  "no-alt-text": false
+}
